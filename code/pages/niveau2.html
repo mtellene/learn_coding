@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Learn coding</title>
+        <link rel="stylesheet" href="../style/style.css">
+        <meta charset="utf-8">
+    </head>
+
+    <body onload="put_cauldron()">
+        <section id="section_niveau2">
+            <div id="div-content">
+                <div>
+                    <img id="grid" src="../../ressources/imgs/grid.png">
+                    <img id="wizard" src="../../ressources/imgs/wizard.png">
+                    <img id="cauldron" src="../../ressources/imgs/cauldron.png">
+                </div>
+                
+                <div id="div-textarea">
+                    <div>
+                        <p>Aidez le sorcier à retrouver son chaudron. Pour ce faire, écrivez les 
+                            déplacements que celui-ci doit effectuer.</p>
+                        <p>4 directions sont possible : gauche, droite, haut, bas.</p>
+                        <p>Pour faire déplacer le sorcier, indiquez dans la zone de texte les 
+                            déplacements à effectuer.</p>
+                        <p>Exemple : <br><code>gauche(4)</code>  déplacera le sorcier 
+                            de 4 cases sur la gauche.</p>
+                        <p>Pour indiquer plusieurs directions, sautez des lignes !</p>
+                        <p>Exemple : <br> <code>gauche(4) <br> haut(1)</code></p>
+                        <p>Déplacera le sorcier de 4 cases vers la gauche et 1 vers le haut.</p>
+                    </div>
+                    
+                    <h1>Codez ici</h1>
+                    <textarea id="coding_area" rows="10"></textarea>
+
+                    <button id="submit">Valider</button>
+
+                    <button id="reset">Effacer</button>
+
+                    <div id="error_div">
+
+                    </div>
+
+                    <div id="victory_div">
+                        <img id="cup" src="../../ressources/imgs/cup.png">
+                        <p id="final_text"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="../scripts/script_niveau2.js"></script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+#liste_niveaux > li > a{
+    color: #0372b7;
+}
+
+#liste_niveaux > li > a:hover{
+    color: #a06bcc;
+} 
+
+#section_niveau2{
+    display: flex;
+}
+
+#div-content{
+    display: flex;
+}
+
+#div-textarea{
+    margin-top: 0vh;
+    margin-left: 10vh;
+}
+
+#grid{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 750px;
+}
+
+#wizard{
+    width: 50px;
+    position: absolute;
+    top: 359px; /*9 et de 50 en 50*/ 
+    left: 359px; /*9 et de 50 en 50*/
+}
+
+#cauldron{
+    width: 50px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#cup{
+    width: 100px;
+    visibility: hidden;
+}
